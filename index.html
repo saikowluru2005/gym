@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sai's Transformation Plan</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f4f7fb;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #2e86de, #00b894);
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: 20px auto;
+      text-align: center;
+    }
+    button {
+      width: 250px;
+      padding: 15px;
+      margin: 15px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      color: white;
+      background: linear-gradient(135deg, #2e86de, #00b894);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease;
+    }
+    button:hover {
+      transform: scale(1.05);
+    }
+    .content {
+      display: none;
+      text-align: left;
+      background: white;
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2e86de;
+    }
+    h3 {
+      color: #00b894;
+      margin-bottom: 5px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .day {
+      margin-bottom: 15px;
+      padding: 10px;
+      border-left: 4px solid #2e86de;
+      background: #f9fcff;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sai's Fat Loss + Muscle Gain Plan</h1>
+    <p>7-Day Workout & Eggetarian Diet</p>
+  </header>
+
+  <div class="container">
+    <button onclick="toggleContent('workouts')">🏋️ Workouts</button>
+    <button onclick="toggleContent('food')">🥗 Food Plan</button>
+
+    <!-- Workouts -->
+    <div id="workouts" class="content">
+      <h2>7-Day Workout Plan</h2>
+      <div class="day">
+        <h3>Day 1 – Push (Chest, Shoulders, Triceps)</h3>
+        <ul>
+          <li>Bench Press – 4x10</li>
+          <li>Shoulder Press – 3x10</li>
+          <li>Push-ups – 3x10</li>
+          <li>Tricep Dips / Cable Pushdown – 3x12</li>
+        </ul>
+      </div>
+      <div class="day">
+        <h3>Day 2 – Pull (Back, Biceps)</h3>
+        <ul>
+          <li>Lat Pulldown – 4x10</li>
+          <li>Dumbbell Rows – 3x10</li>
+          <li>Barbell Curls – 3x12</li>
+          <li>Face Pulls – 3x12</li>
+        </ul>
+      </div>
+      <div class="day">
+        <h3>Day 3 – Legs</h3>
+        <ul>
+          <li>Squats – 4x10</li>
+          <li>Lunges – 3x12 each leg</li>
+          <li>Leg Press – 3x10</li>
+          <li>Calf Raises – 4x15</li>
+        </ul>
+      </div>
+      <div class="day">
+        <h3>Day 4 – Rest/Active Recovery</h3>
+        <ul><li>Light cardio, stretching, yoga, or walking</li></ul>
+      </div>
+      <div class="day">
+        <h3>Day 5 – Push</h3>
+        <ul><li>Repeat Day 1 with progressive overload</li></ul>
+      </div>
+      <div class="day">
+        <h3>Day 6 – Pull + Legs</h3>
+        <ul>
+          <li>Deadlifts – 4x8</li>
+          <li>Pull-ups (assisted if needed) – 3x10</li>
+          <li>Leg Extensions – 3x12</li>
+          <li>Hamstring Curls – 3x12</li>
+        </ul>
+      </div>
+      <div class="day">
+        <h3>Day 7 – Rest/Active Recovery</h3>
+        <ul><li>Walking, stretching, yoga</li></ul>
+      </div>
+      <p><b>+ Cardio:</b> 20–30 mins brisk walking/cycling after weights or evening. HIIT 2–3x per week.</p>
+    </div>
+
+    <!-- Food -->
+    <div id="food" class="content">
+      <h2>7-Day Eggetarian Diet Plan</h2>
+      <div class="day">
+        <h3>Day 1</h3>
+        <ul>
+          <li>Breakfast: 4 egg whites + 1 whole egg, 2 idlis, 1 orange</li>
+          <li>Lunch: 2 rotis, dal, 100g paneer curry, salad</li>
+          <li>Snack: Whey protein / roasted chana</li>
+          <li>Dinner: 2 rotis, 2 egg bhurji, sabzi</li>
+          <li>Bedtime: 2 egg whites</li>
+        </ul>
+      </div>
+      <div class="day">
+        <h3>Day 2</h3>
+        <ul>
+          <li>Breakfast: 3 egg whites + 1 whole egg, poha, 1 banana</li>
+          <li>Lunch: 200g rice, dal, 1 boiled egg, salad</li>
+          <li>Snack: Whey protein + 5 almonds</li>
+          <li>Dinner: 2 rotis, 100g paneer curry, sabzi</li>
+          <li>Bedtime: 1 glass milk</li>
+        </ul>
+      </div>
+      <div class="day">
+        <h3>Day 3</h3>
+        <ul>
+          <li>Breakfast: 4 egg whites + 1 whole egg, 2 dosas, 1 apple</li>
+          <li>Lunch: 2 rotis, rajma/chole, 1 boiled egg, salad</li>
+          <li>Snack: Whey protein / peanuts</li>
+          <li>Dinner: 2 rotis, 100g paneer, sabzi</li>
+          <li>Bedtime: 2 egg whites</li>
+        </ul>
+      </div>
+      <div class="day">
+        <h3>Day 4</h3>
+        <ul>
+          <li>Breakfast: 3 egg whites + 1 whole egg, oats (40g) + fruit</li>
+          <li>Lunch: 200g rice, dal, sabzi, 1 boiled egg</li>
+          <li>Snack: Whey protein + 5 almonds</li>
+          <li>Dinner: 2 rotis, 2 egg bhurji, sabzi</li>
+          <li>Bedtime: 1 glass milk</li>
+        </ul>
+      </div>
+      <div class="day">
+        <h3>Day 5</h3>
+        <ul>
+          <li>Breakfast: 4 egg whites + 1 whole egg, 2 idlis + sambar</li>
+          <li>Lunch: 2 rotis, 100g paneer curry, sabzi, salad</li>
+          <li>Snack: Whey protein + black coffee</li>
+          <li>Dinner: 2 rotis, 150g soya curry, sabzi</li>
+          <li>Bedtime: 2 egg whites</li>
+        </ul>
+      </div>
+      <div class="day">
+        <h3>Day 6</h3>
+        <ul>
+          <li>Breakfast: 3 egg whites + 1 whole egg, upma, 1 fruit</li>
+          <li>Lunch: 200g rice, dal, 1 boiled egg, salad</li>
+          <li>Snack: Whey protein + roasted chana</li>
+          <li>Dinner: 2 rotis, 100g paneer curry, sabzi</li>
+          <li>Bedtime: 1 glass milk</li>
+        </ul>
+      </div>
+      <div class="day">
+        <h3>Day 7 (Cheat Controlled)</h3>
+        <ul>
+          <li>Cheat: 1 meal of your choice (pizza/biryani/sweet)</li>
+          <li>Rest: Follow Day 1 plan</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleContent(id) {
+      const section = document.getElementById(id);
+      section.style.display = (section.style.display === "block") ? "none" : "block";
+    }
+  </script>
+</body>
+</html>
